@@ -23,4 +23,9 @@ public class ThreadDemo {
     public void test3() {
         System.out.println("当前线程为：" + Thread.currentThread().getId());
     }
+
+    @Test
+    public void test4() {
+        System.out.println("随便一测");
+    }
 }
