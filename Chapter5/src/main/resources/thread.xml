@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="thread" parallel="methods" thread-count="2">
+        <test name="test">
+            <classes>
+                <class name="com.liulang.testng.thread.ThreadDemo"/>
+                <!--<class name="com.liulang.testng.thread.ThreadDemo"></class>-->
+            </classes>
+        </test>
+</suite>

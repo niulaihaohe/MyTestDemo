@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parameterDemo">
+    <test name="parameterTest">
+        <classes>
+            <parameter name="name" value="tom"/>
+            <parameter name="age" value="18"/>
+            <class name="com.liulang.testng.paramater.ParamerTest"/>
+        </classes>
+    </test>
+</suite>
+<!--<suite name="test">-->
+    <!--<test name="login">-->
+        <!--<classes>-->
+            <!--<class name="com.liulang.testng.SuiteConfig"></class>-->
+            <!--<class name="com.liulang.testng.LoginTest"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+<!--</suite>-->
