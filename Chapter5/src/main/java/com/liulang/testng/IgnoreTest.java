@@ -12,6 +12,6 @@ public class IgnoreTest {
     }
     @Test(enabled = false)
     public void ignoreCase(){
-        System.out.println("我想被忽略");
+        System.out.println("我想被忽略   ");
     }
 }

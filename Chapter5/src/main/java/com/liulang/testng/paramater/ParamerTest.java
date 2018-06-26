@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class ParamerTest {
 
     @Test
-    @Parameters({"name", "age"})
+    @Parameters({"name","age"})
     public void test(String name, int age) {
         System.out.println(name + "今年" + age + "岁了");
     }

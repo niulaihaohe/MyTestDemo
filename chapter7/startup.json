@@ -1,0 +1,37 @@
+[
+  {
+    "request":{
+      "uri":"/demo"
+    },
+    "response":{
+      "text":"try your best do it"
+    }
+  },
+  {
+    "description":"模拟带参数的get请求",
+    "request":{
+      "method":"get",
+      "uri":"/getwithparam",
+      "queries":{
+        "name":"liulang",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"biubiu"
+    }
+  },
+  {
+    "request":{
+      "method":"post",
+      "forms":{
+        "name":"tom",
+        "age":"18"
+      },
+      "uri":"/postrequest"
+    },
+    "response":{
+      "text":"post请求"
+    }
+  }
+]

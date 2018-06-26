@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="report">
+    <test name="demo">
+        <classes>
+            <class name="chapter6.TestMethodsDemo">
+                <methods>
+                    <include name="test"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logDemo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+     <!--此监听器负责监听case执行情况并生成报告-->
+    <listeners >
+        <listener class-name="chapter6.ExtentTestNGIReporterListener"/>
+        <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+    </listeners>
+</suite>
